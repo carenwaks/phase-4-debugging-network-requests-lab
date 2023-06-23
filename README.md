@@ -63,11 +63,30 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+    - Try to add a toy to generate th error message
+    - Check error type on browser console
+    - Check the error message on the rails server
+    - Error points to name error
+    - Correct name error 
+    - Try to add a toy again to make sure it works
+
 
 - Update the number of likes for a toy
 
   - How I debugged:
+    - Try to update the likes to generate the name error
+    - Check error type on browser Console 
+    - Error points to no json data
+    - Use byebug to check on data
+    - Update method to pass json data
+    - Try to update the likes again to ensure it was successfull
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+    - Try to donate toy to generate the error message
+    - Check error type on browser Console 
+    - Check rails server for error
+    - Error points to " no route matches"
+    - Correct route error
+    - Try to donate toy again to ensure it works
